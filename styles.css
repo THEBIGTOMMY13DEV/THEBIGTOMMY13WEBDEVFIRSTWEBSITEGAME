@@ -1,0 +1,133 @@
+body {
+ text-align: center;
+ background-color: black;
+ color: white;
+}
+
+img {
+ width: 350px;
+}
+.gameover-image{
+  margin-left: auto;
+  margin-right: auto;
+  height:auto;
+  width:auto;
+}
+
+.title {
+  font-family: 'Source Sans Pro', san-serif;
+ font-size: 50px;
+ font-weight: 800;
+}
+
+.buttons {
+ display: flex;
+ justify-content: center;
+
+}
+
+p {
+ font-size: 30px;
+ font-weight: 800;
+}
+
+
+button {
+ height: 40px;
+ color: white;
+ background-color: black;
+}
+
+
+h1 {
+ font-size: 50px;
+ color: white;
+}
+
+
+
+.story-opening {
+ display: none;
+}
+
+
+
+.buttons {
+ display: none;
+}
+
+
+
+.option-one-screen {
+ display: none;
+}
+
+
+
+.option-two-screen {
+ display: none;
+}
+
+
+
+.option-one-end {
+ display: none;
+}
+
+
+
+.option-two-end {
+ display: none;
+}
+
+.option-one {
+ display: none;
+}
+
+.option-two {
+ display: none;
+}
+
+.startbutton {
+ height: 50px;
+ color: white;
+ background-color: black;
+ font-size: 50px;
+ text-align: center;
+}
+
+.startimage {
+ height: auto;
+ width: auto;
+}
+
+.gameover{
+ display: none;
+}
+.gameoveryoulose {
+ display: none;
+}
+
+.option-three-screen {
+ display: none;
+}
+
+.easy-route-screen {
+ display: none;
+}
+
+.hard-route-screen {
+ display: none;
+}
+
+.hard-route-screen1 {
+ display: none;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansProBold.otf') format('opentype');
+}
+.startopening{display:block;}
+.gameoverscreenyoulosehackerwon{display:none;}
+.gameoverscreenyoulosecybersecurityspecialistwon{display:none;}
